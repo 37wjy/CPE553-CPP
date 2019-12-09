@@ -25,4 +25,13 @@ int main() {
     s = m.suffix().str();
   }
 }
-	
+/*	
+Target sequence: 
+void f(int x, int y) {}
+uint32_t gello(int);
+long double h123(long double x,) {}
+
+The following matches and submatches were found:
+f(int x, int y)	
+gello(int)	
+h123(long double x,)	*/
